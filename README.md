@@ -42,8 +42,8 @@ The main goal is to design a front end for a chatbot.This should be like a conve
 [ChatBot Youtube Link]()
 
 
-## Repl link
-[Repel Link](https://repl.it/@VamsiCheruku/week2Final#script.js)
+## Repl links
+[Link for code](https://repl.it/@VamsiCheruku/week2Final#script.js) [link for bot](https://week2final.vamsicheruku.repl.co/)
 
 ## Front end photo
 ![]()
