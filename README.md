@@ -1,6 +1,6 @@
-# FrontEndForBot
+### FrontEndForBot
 
-# Chatbot Team
+## Chatbot Team
 |**Siva(18PA1A0555)**|**Vamsi(18PA1A0531)**|**Bharadwaj(18PA1A0540)**|
 |---|---|---|
 ![](http://learncodeonline.in/mascot.png)   |  ![](http://learncodeonline.in/mascot.png)|  ![](http://learncodeonline.in/mascot.png)  |
@@ -27,18 +27,23 @@ The main goal is to design a front end for a chatbot.This should be like a conve
     2. user_msg_append()
     3. bot_msg-append()
     4. evall()
-    5. time()
+    5. joke()
     6. scrolldown()
     
 
-## References and Tools
+## References
 - As this is a basic front end design we did not refered any where for coding.
 
+## Tools
+- We have used Rapid api for jokes
+    - [Link for Rapid api](https://rapidapi.com/LemmoTresto/api/joke3)
 
 ## Important Links
-[**ChatBot Youtube Link**]()
+[ChatBot Youtube Link]()
 
 
 ## Repl link
-[Repel Link](https://repl.it/@VamsiCheruku/WEEK2#script.js)
+[Repel Link](https://repl.it/@VamsiCheruku/week2Final#script.js)
 
+## Front end photo
+![]()
