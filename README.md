@@ -17,9 +17,12 @@ The main goal is to design a front end for a chatbot.This should be like a conve
 ![]()
 
 ## Coding
-- We have created frontend for  this chatbot by writing  [html](https://github.com/Vamsi-027/ML2021_WEEK2/blob/main/index.html) file. In which we have created a structure for out bot.Its a very basic html code anyone can easily understand.
-- In [css](https://github.com/Vamsi-027/ML2021_WEEK2/blob/main/style.css) file we have styled your html file.
-- In [JavaScript](https://github.com/Vamsi-027/ML2021_WEEK2/blob/main/script.js) ,file we have implemented the evaluate function to evaluate given expression and scroll function to scroll automatically whenever there a need to scroll down.i.e, it scrolls down automatically when user enters an expression.
+- We have created frontend for  this chatbot by writing  [html](https://github.com/Vamsi-027/FrontEndForBot/blob/main/index.html) file. In which we have created a structure for out bot.Its a very basic html code anyone can easily understand.This file is mainly divided into three parts they are
+        - Header
+        - Main
+        - Footer
+- In [css](https://github.com/Vamsi-027/FrontEndForBot/blob/main/style.css) file we have styled your html file.
+- In [JavaScript](https://github.com/Vamsi-027/FrontEndForBot/blob/main/script.js) ,file we have implemented the evaluate function to evaluate given expression and scroll function to scroll automatically whenever there a need to scroll down.i.e, it scrolls down automatically when user enters an expression.
     
 
 ## References and Tools
