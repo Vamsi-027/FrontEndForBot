@@ -38,13 +38,12 @@ The main goal is to design a front end for a chatbot.This should be like a conve
 - We have used Rapid api for jokes
     - [Link for Rapid api](https://rapidapi.com/LemmoTresto/api/joke3)
 
-## Important Links
-[ChatBot Youtube Link]()
 
-
-## Repl links
-- [Link for code](https://repl.it/@VamsiCheruku/week2Final#script.js) 
-- [Link for bot](https://week2final.vamsicheruku.repl.co/)
+## Important links
+- Repel Links
+    - [Link for code](https://repl.it/@VamsiCheruku/week2Final#script.js) 
+    - [Link for bot](https://week2final.vamsicheruku.repl.co/)
+- [YouTube Video link]()
 
 ## Image of chatbot interface
 ![](https://github.com/Vamsi-027/FrontEndForBot/blob/main/Images/chatbot_img.png)
