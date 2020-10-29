@@ -21,12 +21,18 @@ The main goal is to design a front end for a chatbot.This should be like a conve
     1. Header
     2. Main Body 
     3. Footer
-- In [css](https://github.com/Vamsi-027/FrontEndForBot/blob/main/style.css) file we have styled your html file.
-- In [JavaScript](https://github.com/Vamsi-027/FrontEndForBot/blob/main/script.js) ,file we have implemented the evaluate function to evaluate given expression and scroll function to scroll automatically whenever there a need to scroll down.i.e, it scrolls down automatically when user enters an expression.
+- In [css](https://github.com/Vamsi-027/FrontEndForBot/blob/main/style.css) file we have styled our html file.
+- In [JavaScript](https://github.com/Vamsi-027/FrontEndForBot/blob/main/script.js) ,there are 6 different functions they are
+    1. talk()
+    2. user_msg_append()
+    3. bot_msg-append()
+    4. evall()
+    5. time()
+    6. scrolldown()
     
 
 ## References and Tools
-- As this is a basic chatbot we did not refered any where for coding.
+- As this is a basic front end design we did not refered any where for coding.
 
 
 ## Important Links
