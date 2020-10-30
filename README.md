@@ -14,7 +14,7 @@ The main goal is to design a front end for a chatbot.This should be like a conve
 - ***Gives current date and time***
 
 ## Block diagram
-![]()
+![](https://github.com/Vamsi-027/FrontEndForBot/blob/main/Images/blockDiagram.png)
 
 ## Coding
 - We have created frontend for  this chatbot by writing  [html](https://github.com/Vamsi-027/FrontEndForBot/blob/main/index.html) file. In which we have created a structure for out bot.Its a very basic html code anyone can easily understand.This file is mainly divided into three parts they are 
