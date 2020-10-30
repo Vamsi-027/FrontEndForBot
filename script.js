@@ -1,24 +1,24 @@
 // talk function is being called when user clicks send button 
-
 function talk(){
-    var user=document.getElementById("inputbox").value;
+    var user=document.getElementById("inputbox").value.toLowerCase();
     user_msg_append(user)
-    if(user.toLowerCase()=="hi" || user.toLowerCase()=="hello")
+    if(user=="hi" || user=="hello")
     {
       bot_msg_append("Hello!Tell me what to do")
     }
-    else if(user.toLowerCase().includes("joke")){
+    else if(user.includes("joke")){
       joke()
     }
     else if(user.includes("eval"))
     {
       evall(user.slice(5,user.length))
     }
-    else if(user.includes("movie"))
+    else if(user.includes("time"))
     {
-      imdb(user.slice(6,user.length))
+      var date=new Date();
+      bot_msg_append(date)
     }
-    else if(user.includes("exit") || user.includes("thank you") || user.includes("thank you")){
+    else if(user.includes("exit") || user.includes("thank you") || user.includes("bye")){
       bot_msg_append("Nice to chat with you.See you around")
     }
     else{
@@ -39,7 +39,7 @@ function user_msg_append(user){
     scrolldown();
 }
 
-//Appends all bot messages into the chatlog 
+//Appends all bot messages into the chatlog
 function bot_msg_append(data){
     var node = document.createElement("p");
     node.classList.add("bot_msg")
@@ -52,21 +52,25 @@ function bot_msg_append(data){
 
 //Tells a random joke using rapid api
 function joke(){
-  var xhr = new XMLHttpRequest();
-  xhr.withCredentials = true;
-  xhr.addEventListener("readystatechange", function () {
-    if (this.readyState === this.DONE) {
-      var data=JSON.parse(this.responseText) //data from the api comes in the form of object.So we need to parse the object inorder to send the data to frontend
-      bot_msg_append(data.content)
-      
-    }
-   
-  });
-  xhr.open("GET", "https://joke3.p.rapidapi.com/v1/joke");
-  xhr.setRequestHeader("x-rapidapi-host", "joke3.p.rapidapi.com");
-  xhr.setRequestHeader("x-rapidapi-key", "6db373d25cmsh3b2c181abcde788p12167bjsn0800b6171148");
-  xhr.send();
-   scrolldown();
+  var data = null;
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+	if (this.readyState === this.DONE) {
+		//console.log(this.responseText);
+    data=JSON.parse(this.responseText);
+    bot_msg_append(data.content)
+	}
+});
+
+xhr.open("GET", "https://joke3.p.rapidapi.com/v1/joke");
+xhr.setRequestHeader("x-rapidapi-host", "joke3.p.rapidapi.com");
+xhr.setRequestHeader("x-rapidapi-key", "6db373d25cmsh3b2c181abcde788p12167bjsn0800b6171148");
+
+xhr.send(data);
+
 }
 
 //Evaluates an expression
