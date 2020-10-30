@@ -2,33 +2,44 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHREZLI+pbxtHCWp1t77Bi1L4ztiqr08@Kn4Z8NTSRYMAZFd33n5dQ81WUEDOS/"
-	 crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+
+  <!--Link css file -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Link bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!--Link fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHREZLI+pbxtHCWp1t77Bi1L4ztiqr08@Kn4Z8NTSRYMAZFd33n5dQ81WUEDOS/"
+   crossorigin="anonymous">
 </head>
 
 <body>
-	<header>
+  <!--Header deals with head of the page i.e bot image and name of the bot-->
+  <header>
     <img  class ="bot_img" src="Images/bot.jpeg">
-		<h1>Simple bot</h1>
-	</header>
+    <h1>Simple bot</h1>
+  </header>
 
-
-	<div class="chatbox">
-		<div class="chatlogs">
-			<p class="bot_msg">Hi i am Victor.I can tell jokes,evaluates an expresion and i can tell current time also</p>
-		</div>
-	</div>
-		<footer>
-			<div class="inputdiv">
-				<input id="inputbox" type="text" placeholder="Type here..">
+  <!--Middle part of the bot,it contains chatlogs,i.e user msgs and bot msgs -->
+  <div class="chatbox">
+    <div class="chatlogs">
+      <p class="bot_msg">Hi i am Victor.I can tell jokes,evaluates an expresion</p>
+    </div>
+  </div>
+  <!--Footer deals with input box and send button -->
+    <footer>
+      <div class="inputdiv">
+        <input id="inputbox" type="text" placeholder="Type here..">
+	      
+        <!--talk function is called whenever user clicks send button -->
         <button onclick="talk()" type="button" class="btn btn-success">Send</button>
       </div>
     </footer>
+	<!--Link javascript file -->
     <script src="script.js"></script>
   </body>
 </html>
